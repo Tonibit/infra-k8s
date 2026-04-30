@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: ghcr.io/tonibit/order-service:latest
+          image: ghcr.io/tonibit/order-service:cf91ecec654c4a9073dd167558bd97a0c6e8c8c5
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
