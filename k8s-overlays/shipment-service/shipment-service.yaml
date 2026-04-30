@@ -16,7 +16,7 @@ spec:
       containers:
         - name: shipment-service
           image: ghcr.io/tonibit/shipment-service:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8083
           env:

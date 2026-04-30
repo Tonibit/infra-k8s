@@ -16,7 +16,7 @@ spec:
       containers:
         - name: order-service
           image: ghcr.io/tonibit/order-service:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
